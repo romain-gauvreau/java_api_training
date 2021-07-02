@@ -1,4 +1,4 @@
-package navy_battle;
+package fr.lernejo.navy_battle;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpServer;
@@ -24,3 +24,4 @@ public class Api {
         }
     }
 }
+
