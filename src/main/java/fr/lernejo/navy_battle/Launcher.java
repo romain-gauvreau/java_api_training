@@ -1,4 +1,4 @@
-package navy_battle;
+package fr.lernejo.navy_battle;
 
 import java.io.IOException;
 import java.util.logging.Logger;
