@@ -11,7 +11,7 @@ import java.net.http.HttpResponse;
 public abstract class Client {
     private final HttpClient client = HttpClient.newHttpClient();
 
-    public JSONObject sendPOSTRequest(String url, JSONObject obj) throws IOException, InterruptedException {
+    public JSONObject sendPOST(String url, JSONObject obj) throws IOException, InterruptedException {
         HttpRequest postRequest = HttpRequest.newBuilder()
             .uri(URI.create(url))
             .setHeader("Accept", "application/json")
@@ -24,7 +24,7 @@ public abstract class Client {
     }
 
 
-    public JSONObject sendGETRequest(String url) throws IOException, InterruptedException {
+    public JSONObject sendGET(String url) throws IOException, InterruptedException {
         HttpRequest requeteGET = HttpRequest.newBuilder()
             .uri(URI.create(url))
             .setHeader("Accept", "application/json")

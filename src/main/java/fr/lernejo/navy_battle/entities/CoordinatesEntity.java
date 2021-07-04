@@ -13,7 +13,7 @@ public class CoordinatesEntity {
 
     public CoordinatesEntity(String code) {
         if (code.length() < 2 || code.length() > 3 || !code.matches("^[A-J]([1-9]|10)$"))
-            throw new RuntimeException("The code " + code + "is invalid!");
+            throw new RuntimeException("The cell " + code + " is not valid");
 
         y = Integer.parseInt(code.substring(1)) - 1;
         x = code.charAt(0) - 'A';

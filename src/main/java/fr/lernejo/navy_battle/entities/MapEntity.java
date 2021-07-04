@@ -1,6 +1,5 @@
 package fr.lernejo.navy_battle.entities;
 
-
 import fr.lernejo.navy_battle.enums.BoatOrientationEnum;
 import fr.lernejo.navy_battle.enums.FireResultEnum;
 import fr.lernejo.navy_battle.enums.GameCellEnum;
