@@ -12,4 +12,7 @@ public enum GameCellEnum {
         this.letter = letter;
     }
 
+    public String getLetter() {
+        return letter;
+    }
 }
